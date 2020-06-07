@@ -80,8 +80,8 @@ collections:
       widget: object
       hint: This is the text that shows on the dog listings page
       fields:
-        - { label: "English", name: "en", widget: text, pattern: ['.{2,60}', "Must be between 2 and 60 characters"]
-        - { label: "Español", name: "es", widget: text, pattern: ['.{2,60}', "Must be between 2 and 60 characters"]
+        - { label: "English", name: "en", widget: text, pattern: ['.{2,60}', "Must be between 2 and 60 characters"] }
+        - { label: "Español", name: "es", widget: text, pattern: ['.{2,60}', "Must be between 2 and 60 characters"] }
  }
     - label: Images
       name: images
