@@ -139,8 +139,109 @@ collections:
   files:
     - label: "Social and contact"
       name: "links"
+      editor:
+        preview: false
       file: "content/links.md"
       fields:
-        - {label: "Email address", name: email, widget: string }
-        - {label: "Facebook username", name: facebook, widget: string }
-        - {label: "Instagram username", name: instagram, widget: string }
+        - { label: "Email address", name: email, widget: string }
+        - { label: "Facebook username", name: facebook, widget: string }
+        - { label: "Instagram username", name: instagram, widget: string }
+- label: "Pages"
+  name: "pages"
+  media_folder: "./images"
+  files:
+    - label: "Who are we?"
+      name: "whoarewe"
+      editor:
+        preview: false
+      file: "content/whoarewe.md"
+      fields:
+        - label: "Image"
+          name: image
+          widget: image
+        - label: "English text"
+          name: en
+          widget: markdown
+          buttons: ["bold", "italic", "link"]
+          editorComponents: []
+        - label: "Español text"
+          name: es
+          widget: markdown
+          buttons: ["bold", "italic", "link"]
+          editorComponents: []
+    - label: "Adopt"
+      name: "adopt"
+      editor:
+        preview: false
+      file: "content/adopt.md"
+      fields:
+        - label: "Image"
+          name: image
+          widget: image
+        - label: "English text"
+          name: en
+          widget: markdown
+          buttons: ["bold", "italic", "link"]
+          editorComponents: []
+        - label: "Español text"
+          name: es
+          widget: markdown
+          buttons: ["bold", "italic", "link"]
+          editorComponents: []
+    - label: "Foster"
+      name: "foster"
+      editor:
+        preview: false
+      file: "content/foster.md"
+      fields:
+        - label: "Image"
+          name: image
+          widget: image
+        - label: "English text"
+          name: en
+          widget: markdown
+          buttons: ["bold", "italic", "link"]
+          editorComponents: []
+        - label: "Español text"
+          name: es
+          widget: markdown
+          buttons: ["bold", "italic", "link"]
+          editorComponents: []
+    - label: "Donate"
+      name: "donate"
+      editor:
+        preview: false
+      file: "content/donate.md"
+      fields:
+        - label: "Image"
+          name: image
+          widget: image
+        - label: "English text"
+          name: en
+          widget: markdown
+          buttons: ["bold", "italic", "link"]
+          editorComponents: []
+        - label: "Español text"
+          name: es
+          widget: markdown
+          buttons: ["bold", "italic", "link"]
+          editorComponents: []
+    - label: "Volunteer"
+      name: "volunteer"
+      editor:
+        preview: false
+      file: "content/volunteer.md"
+      fields:
+        - label: "Image"
+          name: image
+          widget: image
+        - label: "English text"
+          name: en
+          widget: markdown
+          buttons: ["bold", "italic", "link"]
+          editorComponents: []
+        - label: "Español text"
+          name: es
+          widget: markdown
+          buttons: ["bold", "italic", "link"]
+          editorComponents: []
