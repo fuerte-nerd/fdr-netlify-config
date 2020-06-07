@@ -1,5 +1,5 @@
 ---
-image: images/61557795_622440421590228_5710382474295508992_o.jpg
+image: images/img_20190504_102725-01.jpeg
 en: Testing the english
 es: Testing the spanish
 ---
