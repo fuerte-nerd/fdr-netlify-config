@@ -55,8 +55,8 @@ collections:
       name: sex
       widget: select
       options:
-        - { label: "Male", value: 0 }
-        - { label: "Female", value: 1}
+        - { label: "Male", value: "0" }
+        - { label: "Female", value: "1"}
     - label: Breed
       name: breed
       widget: string
@@ -71,10 +71,10 @@ collections:
       name: location
       widget: select
       options:
-        - { label: "Shelter", value: 0 }
-        - { label: "Foster", value: 1 }
-        - { label: "Other", value: 2 }
-      default: 0
+        - { label: "Shelter", value: "0" }
+        - { label: "Foster", value: "1" }
+        - { label: "Other", value: "2" }
+      default: "0"
     - label: Summary
       name: summary
       widget: object
@@ -98,36 +98,36 @@ collections:
       name: ppp
       widget: select
       options:
-        - { label: "No", value: 0 }
-        - { label: "Yes", value: 1 }
-        - { label: "TBC", value: 2 }
+        - { label: "No", value: "0" }
+        - { label: "Yes", value: "1" }
+        - { label: "TBC", value: "2" }
     - label: Dog friendly?
       name: dog_friendly
       widget: select
       options:
-        - { label: "No", value: 0 }
-        - { label: "Yes", value: 1 }
-        - { label: "TBC", value: 2 }
+        - { label: "No", value: "0" }
+        - { label: "Yes", value: "1" }
+        - { label: "TBC", value: "2" }
     - label: Cat friendly?
       name: cat_friendly
       widget: select
       options:
-        - { label: "No", value: 0 }
-        - { label: "Yes", value: 1 }
-        - { label: "TBC", value: 2 }
+        - { label: "No", value: "0" }
+        - { label: "Yes", value: "1" }
+        - { label: "TBC", value: "2" }
     - label: Family friendly?
       name: family_friendly
       widget: select
       options:
-        - { label: "No", value: 0 }
-        - { label: "Yes", value: 1 }
-        - { label: "TBC", value: 2 }
+        - { label: "No", value: "0" }
+        - { label: "Yes", value: "1" }
+        - { label: "TBC", value: "2" }
     - label: Sterilised?
       name: sterilised
       widget: select
       options:
-        - { label: "No", value: 0 }
-        - { label: "Yes", value: 1 }
+        - { label: "No", value: "0" }
+        - { label: "Yes", value: "1" }
     - label: Description
       name: description
       widget: object
