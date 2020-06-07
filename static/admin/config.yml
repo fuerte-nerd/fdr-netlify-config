@@ -26,6 +26,13 @@ collections:
     - label: Date
       name: date
       widget: datetime
+    - label: Language
+      name: language
+      widget: select
+      options:
+        - { label: "English", value: "en" }
+        - { label: "Español", value: "es" }
+      default: { label: "English", value: "en" }
     - label: Body
       name: body
       widget: markdown
