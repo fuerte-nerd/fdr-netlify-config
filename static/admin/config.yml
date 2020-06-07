@@ -32,7 +32,7 @@ collections:
       options:
         - { label: "English", value: "en" }
         - { label: "Español", value: "es" }
-      default: { label: "English", value: "en" }
+      default: "en"
     - label: Body
       name: body
       widget: markdown
