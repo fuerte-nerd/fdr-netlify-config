@@ -82,7 +82,6 @@ collections:
       fields:
         - { label: "English", name: "en", widget: text, pattern: ['.{2,60}', "Must be between 2 and 60 characters"] }
         - { label: "Español", name: "es", widget: text, pattern: ['.{2,60}', "Must be between 2 and 60 characters"] }
- }
     - label: Images
       name: images
       widget: list
@@ -135,4 +134,3 @@ collections:
       fields:
         - { label: "English", name: "en", widget: markdown, buttons: ["bold", "italic", "link"], editorComponents: [] }
         - { label: "Español", name: "es", widget: markdown, buttons: ["bold", "italic", "link"], editorComponents: [] }
- }
