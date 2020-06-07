@@ -148,12 +148,13 @@ collections:
         - { label: "Instagram username", name: instagram, widget: string }
 - label: "Pages"
   name: "pages"
-  media_folder: "./images"
+  media_folder: "content/images"
+  public_folder: "images"
+  editor:
+    preview: false
   files:
     - label: "Who are we?"
       name: "whoarewe"
-      editor:
-        preview: false
       file: "content/whoarewe.md"
       fields:
         - label: "Image"
@@ -171,8 +172,6 @@ collections:
           editorComponents: []
     - label: "Adopt"
       name: "adopt"
-      editor:
-        preview: false
       file: "content/adopt.md"
       fields:
         - label: "Image"
@@ -190,8 +189,6 @@ collections:
           editorComponents: []
     - label: "Foster"
       name: "foster"
-      editor:
-        preview: false
       file: "content/foster.md"
       fields:
         - label: "Image"
@@ -209,8 +206,6 @@ collections:
           editorComponents: []
     - label: "Donate"
       name: "donate"
-      editor:
-        preview: false
       file: "content/donate.md"
       fields:
         - label: "Image"
@@ -228,8 +223,6 @@ collections:
           editorComponents: []
     - label: "Volunteer"
       name: "volunteer"
-      editor:
-        preview: false
       file: "content/volunteer.md"
       fields:
         - label: "Image"
